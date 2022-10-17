@@ -72,8 +72,8 @@ ToggleComponents ? mycollapse.show():mycollapse.hide();
                 <div id="collapsecomponents" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div className="bg-white py-2 collapse-inner rounded">
                         <h6 className="collapse-header">Custom Components:</h6>
-                        <Link className="collapse-item" to="./Button">Buttons</Link>
-                        <Link className="collapse-item" to="./Cards">Cards</Link>
+                        <Link className="collapse-item" to="/Button">Buttons</Link>
+                        <Link className="collapse-item" to="/Cards">Cards</Link>
                     </div>
                 </div>
             </li>
@@ -89,10 +89,10 @@ ToggleComponents ? mycollapse.show():mycollapse.hide();
                     data-parent="#accordionSidebar">
                     <div className="bg-white py-2 collapse-inner rounded">
                         <h6 className="collapse-header">Custom Utilities:</h6>
-                        <Link className="collapse-item" to='./color'>Colors</Link>
-                        <Link className="collapse-item"to='./borders'>Borders</Link>
-                        <Link className="collapse-item" to='./animation'>Animations</Link>
-                        <Link className="collapse-item" to='./other'>Other</Link>
+                        <Link className="collapse-item" to='/color'>Colors</Link>
+                        <Link className="collapse-item"to='/borders'>Borders</Link>
+                        <Link className="collapse-item" to='/animation'>Animations</Link>
+                        <Link className="collapse-item" to='/other'>Other</Link>
                     </div>
                 </div>
             </li>
@@ -115,13 +115,13 @@ ToggleComponents ? mycollapse.show():mycollapse.hide();
                     <div id="collapsePages" className="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                         <div className="bg-white py-2 collapse-inner rounded">
                             <h6 className="collapse-header">Login Screens:</h6>
-                          <Link className="collapse-item" to="./Login" >Login</Link>
-                            <Link className="collapse-item" to='./Register'>Register</Link>
-                            <Link className="collapse-item" to='./ForgotPassword'>Forgot Password</Link>
+                          <Link className="collapse-item" to="/Login" >Login</Link>
+                            <Link className="collapse-item" to='/Register'>Register</Link>
+                            <Link className="collapse-item" to='/ForgotPassword'>Forgot Password</Link>
                             <div className="collapse-divider"></div>
                             <h6 className="collapse-header">Other Pages:</h6>
-                            <Link className="collapse-item" to='./component404'>404 Page</Link>
-                            <Link className="collapse-item" to='./blankpage'>Blank Page</Link>
+                            <Link className="collapse-item" to='/component404'>404 Page</Link>
+                            <Link className="collapse-item" to='/blankpage'>Blank Page</Link>
                         </div>
                     </div>
                 </li>
